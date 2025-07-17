@@ -10,12 +10,16 @@ body{
 }
 .background-div {
   background-image: url("./images/Background\ image.png");
-}
-
-.hero-container {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
+  box-shadow: 0 5px 20px rgb(133, 133, 133);
+}
+
+.hero-container {
+  /* max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px; */
 }
 
 .header-content {
@@ -28,8 +32,7 @@ body{
 .logo {
   width: 180px;
   height: 140px;
-  bottom: -20px;
-  
+  bottom: -20px; 
 }
 
 nav {
@@ -46,7 +49,7 @@ nav {
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -102,19 +105,19 @@ nav {
   display: flex;
   gap: 16px;
 }
-.app-button:hover {
+/* .app-button:hover {
   background-color: #333;
-}
+} */
 .app-button img {
   width: 130px;
   height: 50px;
 }
-.app-button-text {
+/* .app-button-text {
   font-size: 6px;
 }
 .app-button-para {
   font-size: 8px;
-}
+} */
 
 .background-circle {
   right: 31rem;
@@ -129,8 +132,8 @@ nav {
   width: 60%;
   height: 10%;
   object-fit: cover;
-  right: -50%;
-  bottom: -9rem;
+  right: -49%;
+  bottom: -8.5rem;
 }
 
 .laptop-image {
@@ -146,6 +149,7 @@ nav {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
+  box-shadow: 0 5px 20px rgb(133, 133, 133);
 } 
 .hands-on-iphone {
   position: relative;
@@ -275,22 +279,24 @@ nav {
   padding: 0 10px;
 }
 /* 3rd landing page */
-.works-landing-page{
-   background-image: url("./images/Background\ image.png");
+/*    
    padding-top: 40px;
    max-width: 1500px;
    height: 800px;
-}
+} */
 .third-section {
+  background-image: url("./images/Background\ image.png");
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
+  margin-bottom: -350px;
+  box-shadow: 0 5px 20px rgb(133, 133, 133);
 }
-.third-section h1 {
+.works-title h1 {
   text-align: center;
   font-weight: 900;
   font-size: 35px;
-  margin-top: 5px;
+  margin-top: -75px;
 }
 .third-section-pills {
   display: flex;
@@ -316,28 +322,39 @@ nav {
   padding: 10px 50px;
   font-weight: 700;
 }
-.third-section-group {
+.merge{
+  display: flex;
   position: relative;
+}
+.third-section-group {
+  display: flex;
   justify-content: center;
   margin-top: 150px;
-  height: 30rem;
+  /* height: 25rem; */
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: fit-content;
+  /* padding: 50px 50px; */
 }
-
+/* .left-object{
+ max-width:fit-content;
+}
+.right-object{
+ width: 3%;
+} */
 .third-section-img {
+  
   justify-content: center;
 }
 .third-section-img img {
-  position: relative;
-  display: flex;
-  top: -35rem;
+  position: absolute;
+  top: 5%;
   left: 50%;
   transform: translateX(-36%);
-  width: 500px;
-  height: 35rem;
+  width: auto;
+  height: 30rem;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* 4th Landing page */
 .testimonials-section {
@@ -349,19 +366,20 @@ nav {
   background: #ffff;
   margin-bottom: 0px;
   z-index: 2;
+   box-shadow: 0 5px 20px rgb(133, 133, 133);
 }
 .circle-1 {
   position: absolute;
   top: 0px;
-  right: 910px; 
-  width: 280px;
+  right: 950px; 
+  width: 300px;
   height: 350px;
 }
 .circle-2 {
   position: absolute;
   bottom: 0px;
-  left: 900px;
-  width: 280px;
+  left: 950px;
+  width: 300px;
   height: 350px;
 }
 .circle-2 img {
@@ -369,7 +387,7 @@ nav {
 }
 .content {
   z-index: 2;
- }
+}
 
 .title {
   text-align: center;
@@ -466,36 +484,41 @@ nav {
   font-size: 1.3rem;
 }
 /* 5th landing page */
- .container-4{
+ .problems-section{
   background-image: url("./images/Background\ image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  text-align: center;
   position: relative;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* margin-bottom: 120px; */
+  text-align: center;
   gap: 150px;
   padding-bottom: 80px;
+  box-shadow: 0 5px 20px rgb(133, 133, 133);
  }
- .container-4 h1{
+ .problems-section h1{
+  position: relative;
   font-weight: 900;
   font-size: 35px;
   margin-top: 60px;
+  left: -210px;
+ 
+  
+  /* left: -50px: */
  }
  .right-section{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 0px;
+  margin-left: 300px;
  }
- .faq-title{
-  text-align: left;
+ /* .faq-title{
+  text-align: center;
   justify-content: left;
-  margin-bottom: -15px;
+  margin-bottom: -25px;
   margin-top: 60px;
- }
+ } */
  .text-faq{
   background-color: #cbffd0;
   padding: 20px 100px 20px 20px;
@@ -508,7 +531,6 @@ nav {
  .text-faq p{
   font-weight: 600;
   font-size: 20px;
-  text-align: left;
  }
  .text-faq img{
   height: auto;
@@ -524,20 +546,22 @@ nav {
   padding: 20px;
   border-radius: 15px;
   width: 530px;
-  right: -41%;
  }
  .green-shape img{
-  height: 25rem;
-  width: 25rem;
+  /* height: 500px;
+  width: 25rem; */
   position: absolute;
-  right: 30%;
+  /* right: 26%; */
   transform: translateX(-132%);
+  right: 550px; 
+  width: 300px;
+  height: 350px;
  }
  .faq-arrow {
   position: absolute;
   right: 50%;
   transform: translate(550%);
-  z-index: 9999;
+  /* z-index: 9999; */
  }
  /* 6th landing page */
  footer {
@@ -553,6 +577,8 @@ nav {
   padding-bottom: 80px;
   background-color: #26a69a;
   box-shadow: 0 5px 20px rgb(133, 133, 133);
+  max-width: 1250px;
+  margin: 0 auto;
 }
 .footer-text h2 {
   font-weight: 700;
@@ -609,8 +635,8 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: -120px;
-  margin-top: -60px;
+  margin-bottom: -130px;
+  margin-top: -65px;
 }
 .logo-footer img {
   height: 30%;
