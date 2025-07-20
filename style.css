@@ -343,11 +343,11 @@ nav {
   height: 30rem;
   z-index: 1;
 }
-.third-section-img{
+.third-section-image{
   display: flex;
   justify-content: center;
 }
-.third-section-img img{
+.third-section-image img{
   position: absolute;
   top: 45%;
   right: 25px;
