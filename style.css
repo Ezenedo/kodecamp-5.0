@@ -16,13 +16,6 @@ body{
   box-shadow: 0 5px 20px rgb(133, 133, 133);
   height: 905px;
 }
-
-.hero-container {
-  /* max-width: 1250px;
-  margin: 0 auto;
-  padding: 0 20px; */
-}
-
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -35,7 +28,6 @@ body{
   height: 140px;
   bottom: -20px; 
 }
-
 nav {
   display: flex;
   align-items: center;
@@ -55,12 +47,10 @@ nav {
   align-items: center;
   gap: 5px;
 }
-
 .auth-buttons {
   display: flex;
   gap: 10px;
 }
-
 .btn {
   padding: 12px 24px;
   border: none;
@@ -72,7 +62,6 @@ nav {
   text-decoration: none;
   color: black;
 }
-
 .btn-login {
   background-color: #cbffd0;
 }
@@ -90,7 +79,6 @@ nav {
   max-width: 500px;
   margin-top: -120px;
 }
-
 .hero-title {
   font-size: 38px;
   font-weight: 800;
@@ -107,20 +95,10 @@ nav {
   display: flex;
   gap: 16px;
 }
-/* .app-button:hover {
-  background-color: #333;
-} */
 .app-button img {
   width: 130px;
   height: 50px;
 }
-/* .app-button-text {
-  font-size: 6px;
-}
-.app-button-para {
-  font-size: 8px;
-} */
-
 .background-circle {
   right: 31rem;
   bottom: 230px;
@@ -128,7 +106,6 @@ nav {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .background-circle img {
   position: relative;
   width: 60%;
@@ -137,7 +114,6 @@ nav {
   right: -49%;
   bottom: -8.5rem;
 }
-
 .laptop-image {
   position: relative;
   width: 40%;
@@ -164,7 +140,7 @@ nav {
 }
 .mini-background {
   position: relative;
-  left: -1rem;
+  left: -1.3rem;
   z-index: 1;
   width: 23rem;
   top: -27rem;
@@ -284,11 +260,6 @@ nav {
   padding: 0 10px;
 }
 /* 3rd landing page */
-/*    
-   padding-top: 40px;
-   max-width: 1500px;
-   height: 800px;
-} */
 .third-section {
   background-image: url("./images/Background\ image.png");
   position: relative;
@@ -389,7 +360,6 @@ nav {
 .content {
   z-index: 2;
 }
-
 .title {
   text-align: center;
   font-size: 2.8rem;
@@ -415,11 +385,9 @@ nav {
   max-width: 320px;
   transition: transform 0.3s ease;
 }
-
 .testimonial-card:hover {
   transform: translateY(-5px);
 }
-
 .testimonial-card.left {
   background: #cbffd0;
   margin-top: 60px;
@@ -465,26 +433,21 @@ nav {
   height: 20px;
   width: auto;
 }
-/* For individual star control*/
 .star-rating-3 img {
   height: 25px;
 }
-
 .star-rating-4 img {
   height: 25px;
 }
-
 .star-rating-5 img {
   height: 25px;
 }
-
 .testimonial-text {
   font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 20px;
   text-align: center;
 }
-
 .author {
   font-weight: 600;
   text-align: center;
@@ -509,10 +472,6 @@ nav {
   font-size: 45px;
   margin-top: 150px;
   left: -215px;
-  
- 
-  
-  /* left: -50px: */
  }
  .right-section{
   display: flex;
@@ -521,12 +480,6 @@ nav {
   justify-content: center;
   margin-left: 300px;
  }
- /* .faq-title{
-  text-align: center;
-  justify-content: left;
-  margin-bottom: -25px;
-  margin-top: 60px;
- } */
  .text-faq{
   background-color: #cbffd0;
   padding: 20px 100px 20px 20px;
@@ -558,10 +511,7 @@ nav {
   height: 450px;
  }
  .green-shape img{
-  /* height: 500px;
-  width: 25rem; */
   position: absolute;
-  /* right: 26%; */
   transform: translateX(-132%);
   left: 500px; 
   width: 380px;
@@ -571,7 +521,6 @@ nav {
   position: absolute;
   right: 50%;
   transform: translate(550%);
-  /* z-index: 9999; */
  }
  /* 6th landing page */
  footer {
